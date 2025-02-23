@@ -1,0 +1,93 @@
+@font-face {
+    font-family: '1';
+    src: url('./media/Oxanium/static/Oxanium-Medium.ttf') format('truetype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: '1';
+}
+nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 65, 171);
+}
+.nav1{
+    height: 100%;
+    width: 50%;
+}
+.nav1 img{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+.nav2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav2 a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 1;
+    color: white;
+    text-decoration: none;
+}
+.section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(93, 93, 171);
+}
+.section h4{
+    font-size: 25px;
+    font-family: 500;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 170px;
+    color: white;
+}
+.section2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(93, 93, 171);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.section2 img{
+    height: auto;
+    width: 450px;
+    object-fit: center; 
+    
+    border-radius: 30px;
+   
+}
+footer{
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(65, 65, 171);
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
